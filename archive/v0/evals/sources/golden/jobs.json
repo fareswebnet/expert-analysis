@@ -1,0 +1,74 @@
+{
+  "persona": "jobs",
+  "cases": [
+    {
+      "id": "jobs-1",
+      "focus": "core principle",
+      "type": "produit",
+      "dossier": "Atelier Vireo, fabricant fictif d'enceintes connectées, vend 14 références. Sa direction propose une quinzième : une enceinte « modulaire » avec 40 réglages et la compatibilité avec 6 assistants vocaux tiers.\n\nFaits :\n- 14 références actives ; 3 d'entre elles font 80 % du chiffre d'affaires.\n- Une étude auprès de 1 200 clients place « plus de réglages » et « compatibilité universelle » en tête des demandes.\n- Le modèle phare est noté 4,6/5 ; les modèles de milieu de gamme ont 9 % de retours.\n- L'équipe produit compte 60 personnes, déjà dispersées sur les 14 références.\n- Le marketing prévoit une campagne centrée sur la fiche technique (puissance, formats audio pris en charge).\n\nHypothèses :\n- Une quinzième référence ajoutera 10 % de chiffre d'affaires.\n- Les clients paieront 20 % de plus pour la modularité.\n- Les assistants tiers ne dégraderont pas la fiabilité.\n\nQuestion à trancher : faut-il lancer cette quinzième référence ?",
+      "expect": {
+        "positions_allowed": [
+          "Non",
+          "Pivot"
+        ],
+        "must_engage": [
+          "dire non à la quinzième référence et concentrer l'équipe sur peu de produits (focus)",
+          "partir de l'expérience client puis remonter vers la technologie, pas empiler des réglages",
+          "l'étude client ne doit pas dicter le produit : les gens ne savent pas ce qu'ils veulent avant de le voir",
+          "rejet d'une campagne fondée sur la fiche technique au profit d'un message de valeurs",
+          "risque d'une couche tierce (assistants externes) sur la qualité et la fiabilité"
+        ],
+        "must_not": [
+          "valider la référence sur la seule base de l'étude de 1 200 clients",
+          "proposer plus d'études ou de focus groups comme prochaine étape",
+          "approuver la campagne sur les specs ou la multiplication des réglages",
+          "rester dans un compromis tiède sans position tranchée"
+        ]
+      },
+      "basis": [
+        "S9",
+        "S17",
+        "S10",
+        "S3",
+        "S31",
+        "S19",
+        "S6"
+      ]
+    },
+    {
+      "id": "jobs-2",
+      "focus": "blind spot",
+      "type": "offre commerciale",
+      "dossier": "Kestrel Mobile, fabricant fictif de tablettes premium pour le terrain, vend aujourd'hui à des particuliers et à des artisans. Douze grandes entreprises ont testé la tablette en pilote et demandent une offre dédiée : configurations sur mesure, compatibilité avec leurs outils de gestion de parc, accessoires de fournisseurs tiers et support contractuel.\n\nFaits :\n- Les 12 pilotes représentent 2,4 M€ d'intentions d'achat sur trois ans.\n- Les 12 clients demandent chacun des fonctions différentes, dont 5 un stylet.\n- Aucun membre de l'équipe n'a vendu à de grands comptes ; il faudrait recruter 8 commerciaux.\n- Le cycle de vente en entreprise est estimé à 9 mois.\n- Le marché grand public croît de 15 % par an.\n\nHypothèses :\n- Les commerciaux entreprise remonteront des besoins utilisables par le produit.\n- Les configurations sur mesure n'alourdiront pas la feuille de route.\n- Les intentions d'achat se transformeront en commandes.\n\nQuestion à trancher : faut-il lancer cette offre entreprise ?",
+      "expect": {
+        "positions_allowed": [
+          "Non",
+          "Pivot"
+        ],
+        "must_engage": [
+          "l'équipe n'a jamais vendu aux grands comptes : zone qu'il connaît mal et tend à écarter",
+          "la demande exprimée par les clients pilotes ne fait pas la feuille de route",
+          "des commerciaux ne doivent pas piloter les décisions produit",
+          "configurations sur mesure et accessoires tiers contre le contrôle de bout en bout et le focus",
+          "les 2,4 M€ d'intentions comptent moins que la qualité du produit"
+        ],
+        "must_not": [
+          "traiter les 2,4 M€ d'intentions d'achat comme une preuve décisive",
+          "accepter que les besoins des clients pilotes guident le produit (par exemple ajouter le stylet)",
+          "s'en remettre aux futurs commerciaux entreprise pour définir l'offre",
+          "peser le pour et le contre de façon neutre sans trancher"
+        ]
+      },
+      "basis": [
+        "S5",
+        "S10",
+        "S3",
+        "S6",
+        "S12",
+        "S19",
+        "S9",
+        "S15"
+      ]
+    }
+  ]
+}

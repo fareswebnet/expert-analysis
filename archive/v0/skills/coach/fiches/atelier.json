@@ -1,0 +1,20 @@
+{
+  "id": "atelier",
+  "nom": "Atelier à mandats (écriture silencieuse, mur, points)",
+  "alias": ["groupe nominal", "mur d'affinités", "vote par points"],
+  "source": { "auteur": "André Delbecq et Andrew Van de Ven (groupe nominal) ; Jiro Kawakita (diagramme d'affinité)", "reference": "« A Group Process Model for Problem Identification and Program Planning », 1971 ; méthode KJ", "verifie": false },
+  "diamant": "diverger",
+  "quand": "Pour obtenir des options contrastées sur un plan, chacun sous un mandat imposé, avant de choisir.",
+  "pasQuand": "Quand la décision est prise et que la seule question est ce qui peut faire échouer le plan : préférer le pre-mortem.",
+  "mecanique": "atelier",
+  "sieges": [
+    { "posture": "plaider : le plan du porteur tel qu'il est, à son plus fort", "persona": null },
+    { "posture": "pre-mortem : dans dix-huit mois, le plan a échoué ; pourquoi, et ce qui aurait dû alerter", "persona": null },
+    { "posture": "plan opposé : avec les mêmes moyens, le plan qui prend le contre-pied du choix tenu pour acquis", "persona": null }
+  ],
+  "parametres": { "premortem": false },
+  "entree": "aucune",
+  "sortie": "options",
+  "pieges": ["Une fois le mandat levé, les points reviennent au centre : lire les cartes isolées et les paris avant les totaux."],
+  "cout": "3 par participant + 2"
+}

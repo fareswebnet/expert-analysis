@@ -1,0 +1,38 @@
+{
+  "persona": "munger",
+  "cases": [
+    {
+      "id": "munger-1",
+      "focus": "core principle",
+      "type": "offre commerciale",
+      "dossier": "Contexte : Patrimia, courtier en ligne français de 40 personnes, prépare le lancement de « Horizon Plus », une offre d'épargne distribuée par 120 conseillers indépendants.\n\nFaits :\n- Le fonds maison facture 2,8 % de frais annuels ; un ETF diversifié comparable coûte 0,3 %.\n- Le conseiller touche 1,5 % par an sur l'encours du fonds maison, contre 0,2 % sur les produits externes.\n- Le modèle de risque repose sur une simulation sophistiquée, calibrée sur 12 ans de données.\n- Le fonds a rapporté 6,1 % par an avant frais, soit la performance de son indice.\n\nHypothèses :\n- Les conseillers orienteront 70 % des clients vers le fonds maison.\n- Le désabonnement restera sous 8 % grâce à la qualité du service.\n- La marque attirera 15 000 clients en deux ans.\n\nQuestion à trancher : lance-t-on Horizon Plus avec cette grille de rémunération ?",
+      "expect": {
+        "positions_allowed": [
+          "Pivot",
+          "Non"
+        ],
+        "must_engage": [
+          "Inversion : comment cette offre échoue-t-elle, et que ferait-on pour garantir l'échec",
+          "Incitations : qui est payé pour quoi, et la commission 1,5 % contre 0,2 % pousse le conseiller vers le produit inférieur",
+          "Biais empilés (incitation, cohérence, preuve sociale) qui se renforcent, effet lollapalooza",
+          "Se méfier du modèle mathématique sophistiqué détaché de la réalité et de ce qui est facile à chiffrer",
+          "Conséquences de second et troisième ordre sur la réputation et la confiance des clients"
+        ],
+        "must_not": [
+          "Valider la grille de commission sans la remettre en cause, ou la traiter comme un détail d'exécution",
+          "S'appuyer sur la sophistication du modèle de risque ou sur les chiffres de croissance comme preuve de solidité",
+          "Répondre par un avis nuancé sans verdict net (« cela dépend », « des avantages et des inconvénients »)",
+          "Juger l'offre sur le seul potentiel de marché sans analyser l'incitation des conseillers"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S2"
+      ]
+    }
+  ]
+}

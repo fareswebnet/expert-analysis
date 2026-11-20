@@ -1,0 +1,14 @@
+{
+  "name": "multi-expert-board",
+  "owner": {
+    "name": "fareswebnet"
+  },
+  "description": "Private marketplace for the board plugin: a six-step method to prepare a meeting, test an idea or challenge a plan.",
+  "plugins": [
+    {
+      "name": "board",
+      "source": "./",
+      "description": "Six separate steps (cadrage, base, acteurs, angles, livrable, terrain) on one dossier, a few calls each, judged against the field."
+    }
+  ]
+}

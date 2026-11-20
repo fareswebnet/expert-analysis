@@ -1,0 +1,40 @@
+{
+  "persona": "grove",
+  "cases": [
+    {
+      "id": "grove-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : Logivia, éditeur français de 300 personnes, vend un logiciel de gestion d'entrepôt installé chez le client. Cette activité fait 82 % du chiffre d'affaires, avec 78 % de marge brute.\n\nFaits :\n- Une jeune société propose le même service en abonnement. Son produit est limité, mais elle a gagné 3 de nos 40 appels d'offres cette année, contre 0 l'an dernier.\n- Plusieurs commerciaux rapportent que des clients de taille moyenne demandent un prix par utilisateur, sans installation.\n- Le fondateur a bâti l'entreprise sur l'installation sur site ; l'équipe produit y consacre 90 % de son budget.\n- L'offre abonnement de Logivia pèse 4 % du chiffre d'affaires.\n\nHypothèses :\n- L'entrant restera marginal tant que son produit manquera de fonctions.\n- Nos clients actuels resteront fidèles trois ans.\n- Un virage vers l'abonnement ramènerait la marge brute à 60 % pendant deux ans.\n\nQuestion à trancher : le conseil engage-t-il l'essentiel du budget produit sur l'abonnement, ou garde-t-il la priorité au logiciel installé ?",
+      "expect": {
+        "positions_allowed": [
+          "Go",
+          "Go sous conditions",
+          "Pivot"
+        ],
+        "must_engage": [
+          "Strategic inflection point : imaginer l'entrant à dix fois sa force actuelle (10X)",
+          "Question du nouveau dirigeant : que ferait un successeur venu de l'extérieur, et le faire soi-même",
+          "Attachement à l'identité et à l'historique du fondateur contre l'analyse objective",
+          "Signaux du terrain : les commerciaux et les appels d'offres perdus comptent plus que l'hypothèse de marginalité",
+          "Engagement net après débat, avec un responsable, et acceptation de cannibaliser la marge élevée"
+        ],
+        "must_not": [
+          "Écarter l'entrant parce que son premier produit est limité",
+          "Justifier le maintien du statu quo par l'histoire ou l'identité de l'entreprise",
+          "Proposer un débat ou une étude sans fin, sans décision ni responsable désigné",
+          "Présenter la baisse de marge comme une raison suffisante pour ne pas bouger"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S3",
+        "S4",
+        "S8",
+        "S17",
+        "S7",
+        "S11"
+      ]
+    }
+  ]
+}

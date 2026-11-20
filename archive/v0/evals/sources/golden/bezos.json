@@ -1,0 +1,51 @@
+{
+  "persona": "bezos",
+  "cases": [
+    {
+      "id": "bezos-1",
+      "focus": "core principle",
+      "type": "offre commerciale",
+      "dossier": "Contexte : Lumavia, société fictive de 60 personnes, édite une application de suivi des livraisons pour restaurants indépendants. Abonnement actuel : 89 € par mois, 45 % de marge brute. L'équipe produit propose un forfait à 39 € par mois, marge brute 12 %, testé dans deux villes seulement, résiliable à tout moment par les clients et arrêtable par Lumavia en un mois.\n\nFaits :\n- 1 400 restaurants clients, churn annuel de 22 %.\n- Le score de satisfaction trimestriel est de 8,1/10 ; la direction le cite comme preuve que l'offre convient.\n- Une étude de marché complète (6 mois, 40 000 €) apporterait environ 90 % de certitude ; le directeur financier veut l'attendre.\n- Les coûts unitaires baissent d'environ 30 % chaque fois que le volume double.\n\nHypothèses :\n- Le forfait à 39 € triplerait le nombre de nouveaux clients.\n- Le churn ne se dégraderait pas.\n- Les concurrents n'ajusteront pas leurs prix avant un an.\n\nQuestion à trancher : lance-t-on le pilote à 39 € maintenant, ou attend-on l'étude ?",
+      "expect": {
+        "positions_allowed": ["Go", "Go sous conditions"],
+        "must_engage": [
+          "décision réversible (two-way door) donc à prendre vite",
+          "attendre 90 % d'information est trop lent ; viser environ 70 %",
+          "le score de satisfaction est un proxy, pas le résultat client",
+          "marges basses et grande base : baisse de coût, baisse de prix, croissance (flywheel)",
+          "effet sur le free cash flow à long terme plutôt que sur la marge de l'année"
+        ],
+        "must_not": [
+          "exiger une quasi-certitude ou l'étude complète avant un pilote réversible",
+          "accepter le score de satisfaction comme preuve que les clients sont servis",
+          "défendre la marge élevée sur une petite base contre le prix bas sur une grande base",
+          "réponse vague sans position claire ni lecture réversible/irréversible"
+        ]
+      },
+      "basis": ["S2", "S3", "S15", "S17", "S23"]
+    },
+    {
+      "id": "bezos-2",
+      "focus": "blind spot",
+      "type": "produit",
+      "dossier": "Contexte : Norvik, société fictive d'électronique grand public (300 personnes), envisage un second boîtier connecté de cuisine, « Norvik Chef 2 », après l'échec commercial du premier modèle, qui a laissé 4 M€ de stock invendu.\n\nFaits :\n- Budget de développement : 6 M€ sur 18 mois, soit 15 % de la trésorerie.\n- Le premier modèle a été retiré après 8 mois ; 35 salariés ont été réaffectés.\n- Un sondage auprès de 200 utilisateurs : 12 % disent qu'ils l'achèteraient.\n- La brique de reconnaissance vocale issue du premier projet est déjà réutilisée par deux autres produits.\n\nHypothèses :\n- Prix cible : 249 €.\n- Les 12 % d'intention d'achat se convertiraient à 5 %.\n- Une équipe de 40 personnes serait recrutée ; en cas d'échec, une partie serait licenciée.\n\nQuestion à trancher : engage-t-on les 6 M€ pour Norvik Chef 2 ?",
+      "expect": {
+        "positions_allowed": ["Go", "Go sous conditions", "Pivot"],
+        "must_engage": [
+          "l'échec du premier modèle comme apprentissage réutilisable (la brique vocale)",
+          "logique de portefeuille : un gros succès peut couvrir plusieurs échecs",
+          "taille du pari par rapport à l'entreprise et pari qui ne met pas la société en jeu",
+          "le besoin client existe-t-il vraiment, intention d'achat contre résultat client",
+          "réversibilité : financement par étapes et perte bornée"
+        ],
+        "must_not": [
+          "rejeter le projet surtout parce que le premier modèle a échoué",
+          "faire du coût humain (licenciements éventuels) le critère central du verdict",
+          "traiter l'échec précédent comme un risque de réputation décisif",
+          "réponse équivoque sans position ni lecture réversible/irréversible"
+        ]
+      },
+      "basis": ["S2", "S3", "S5", "S18", "S24"]
+    }
+  ]
+}

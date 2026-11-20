@@ -1,0 +1,20 @@
+{
+  "id": "impact-effort",
+  "nom": "Matrice impact / effort",
+  "alias": ["matrice de priorisation", "impact effort", "quick wins"],
+  "source": { "auteur": "pratique de facilitation répandue, sans auteur unique", "reference": "variante de la matrice d'Eisenhower appliquée aux options ; à documenter", "verifie": false },
+  "diamant": "converger",
+  "quand": "Pour trier des options retenues selon ce qu'elles apportent et ce qu'elles coûtent, et voir lesquelles font débat.",
+  "pasQuand": "Quand les options ne sont pas encore écrites, ou qu'une seule reste : passer au consentement.",
+  "mecanique": "notation",
+  "sieges": [
+    { "posture": "celui qui l'exécutera : l'effort réel, en personnes et en semaines", "persona": "grove" },
+    { "posture": "celui qui paie : ce que chaque option rapporte et risque", "persona": "buffett" },
+    { "posture": "le client : ce qu'il remarquerait vraiment", "persona": "bezos" }
+  ],
+  "parametres": { "axes": ["impact", "effort"], "echelle": [1, 5] },
+  "entree": "options",
+  "sortie": "options",
+  "pieges": ["Prendre les médianes pour des mesures : ce sont des estimations des sièges.", "Classer une option aux notes dispersées sans en discuter."],
+  "cout": "un appel par siège (3)"
+}

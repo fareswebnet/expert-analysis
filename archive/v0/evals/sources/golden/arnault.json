@@ -1,0 +1,42 @@
+{
+  "persona": "arnault",
+  "cases": [
+    {
+      "id": "arnault-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : le groupe Valmont, qui détient plusieurs maisons de mode et de maroquinerie, étudie le rachat de la Maison Lacaze, maroquinier parisien fondé en 1889 et aujourd'hui déficitaire.\n\nFaits :\n- Chiffre d'affaires de 38 M€, perte de 4 M€.\n- La famille propriétaire vend, sans repreneur familial.\n- La maison dispose de 130 ans d'archives et d'un atelier de 60 artisans ; son nom est connu des initiés, peu des moins de 40 ans.\n- Le dernier directeur artistique est parti il y a deux ans. Un jeune créateur indépendant, très remarqué, est disponible.\n- Prix demandé : 210 M€, soit environ 5,5 fois le chiffre d'affaires.\n\nHypothèses :\n- Le créateur rejoindra la maison s'il garde sa liberté de création.\n- Mutualiser les fonctions support avec Valmont économiserait 6 M€ par an, avec validation des collections par un comité central.\n- Retour à l'équilibre en cinq ans.\n\nQuestion à trancher : Valmont dépose-t-il une offre à 210 M€, et à quelles conditions ?",
+      "expect": {
+        "positions_allowed": [
+          "Go",
+          "Go sous conditions",
+          "Pivot"
+        ],
+        "must_engage": [
+          "Nom et histoire de la maison : un vrai nom à potentiel dormant, comme le précédent Dior, plutôt qu'une ligne de produits",
+          "Désirabilité de la maison à dix ans, plus que la perte actuelle ou le chiffre d'affaires",
+          "Talent créatif et liberté de création à l'intérieur des règles de la maison",
+          "Qualité la plus haute de sa catégorie, avec l'atelier d'artisans comme atout",
+          "Structure légère et horizon de cinq ans, avec discipline sur le prix payé"
+        ],
+        "must_not": [
+          "Traiter la marque comme une marge ou une ligne de produits à optimiser",
+          "Imposer un comité central d'approbation ou une structure lourde sur la création",
+          "Débattre sur le fond des critiques plutôt que se référer aux valeurs, à la création et aux chiffres",
+          "Inventer une doctrine précise de prix ou de rareté que la fiche ne documente pas"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S2",
+        "S3",
+        "S6",
+        "S7",
+        "S10",
+        "S12",
+        "S14",
+        "S16"
+      ]
+    }
+  ]
+}

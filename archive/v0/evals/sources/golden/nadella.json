@@ -1,0 +1,39 @@
+{
+  "persona": "nadella",
+  "cases": [
+    {
+      "id": "nadella-1",
+      "focus": "core principle",
+      "type": "produit",
+      "dossier": "Contexte : Orvane, éditeur de logiciels de gestion pour entreprises (900 salariés, clients grands comptes et collectivités), doit arbitrer sa feuille de route IA.\n\nFaits :\n- Un concurrent a lancé un assistant grand public très médiatisé ; notre direction marketing veut « le même, en mieux » sous six mois.\n- Notre plateforme est utilisée par 400 clients ; des intégrateurs partenaires demandent depuis un an des API pour y brancher leurs propres assistants.\n- Un audit interne a relevé des failles de sécurité sur la gestion des droits d'accès ; leur correction retarderait la sortie de six semaines.\n- Les achats de nos clients exigent d'après eux plusieurs fournisseurs de modèles.\n\nHypothèses :\n- Le grand public peut devenir un nouveau marché pour nous.\n- Les équipes clientes adopteront l'assistant sans accompagnement particulier.\n- Un seul fournisseur de modèle suffit.\n\nQuestion à trancher : lance-t-on l'assistant grand public dans six mois, sans attendre la correction des failles ?",
+      "expect": {
+        "positions_allowed": [
+          "Go sous conditions",
+          "Pivot",
+          "Non"
+        ],
+        "must_engage": [
+          "envie d'imiter le concurrent contre contribution unique de l'entreprise",
+          "ouvrir la plateforme aux partenaires et développeurs",
+          "sécurité avant sortie de fonctionnalités",
+          "acheteurs entreprise qui veulent plusieurs fournisseurs de modèles",
+          "gestion du changement pour l'adoption chez les clients"
+        ],
+        "must_not": [
+          "justifier le lancement par la nécessité de copier le concurrent",
+          "arbitrer la sécurité contre la date de sortie en faveur de la date",
+          "poser un fournisseur unique de modèle pour des acheteurs entreprise",
+          "adopter une posture de certitude (know-it-all) sans boucle d'apprentissage"
+        ]
+      },
+      "basis": [
+        "S3",
+        "S4",
+        "S8",
+        "S9",
+        "S10",
+        "S2"
+      ]
+    }
+  ]
+}

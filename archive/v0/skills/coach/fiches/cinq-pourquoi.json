@@ -1,0 +1,20 @@
+{
+  "id": "cinq-pourquoi",
+  "nom": "Les 5 Pourquoi",
+  "alias": ["5 whys", "cinq pourquoi"],
+  "source": { "auteur": "Taiichi Ohno (méthode attribuée à Sakichi Toyoda)", "reference": "Toyota Production System: Beyond Large-Scale Production, 1978", "verifie": false },
+  "diamant": "explorer",
+  "quand": "Pour remonter d'un symptôme constaté à sa cause racine, avant de chercher des solutions.",
+  "pasQuand": "Quand le problème a plusieurs causes entremêlées : préférer un arbre à problèmes ou un diagramme causes-effets.",
+  "mecanique": "chaine",
+  "sieges": [
+    { "posture": "les faits : ce que les documents établissent, et rien d'autre", "persona": null },
+    { "posture": "le terrain : ce que vivent ceux qui font le travail", "persona": "grove" },
+    { "posture": "les incitations : qui a intérêt à ce que cela se passe ainsi", "persona": "munger" }
+  ],
+  "parametres": { "niveaux": 5, "symptomes": 3 },
+  "entree": "aucune",
+  "sortie": "causes",
+  "pieges": ["S'arrêter à une cause qui désigne une personne plutôt qu'un fonctionnement.", "Allonger la chaîne avec des causes que les documents n'appuient pas."],
+  "cout": "jusqu'à niveaux × symptômes + 2 (5 × 3 + 2 = 17 au plus)"
+}

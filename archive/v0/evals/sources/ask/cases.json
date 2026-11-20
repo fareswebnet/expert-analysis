@@ -1,0 +1,81 @@
+{
+  "about": "Cas ASK : la consigne ASK des agents (v0.9.0) demande d'appliquer au dossier les questions de la section 3 et les rejets de la section 4 de la fiche, d'attaquer avant de conseiller, sans caricature, et de ne pas refaire l'arithmétique d'un « Audit des chiffres » fourni. Les dossiers reprennent ceux des cas golden ; la question change, pour ne pas toujours demander s'il faut investir.",
+  "cases": [
+    {
+      "id": "ask-buffett-1",
+      "persona": "buffett",
+      "golden": "buffett-1",
+      "question": "Que pensez-vous de ce plan de rachat, et que faudrait-il voir avant de le signer ?",
+      "audit": "# Audit des chiffres\n\nAgent sans avis sur le projet. Recalculs faits sur les chiffres du dossier.\n\n- R1 (forte) : résultat d'exploitation actuel 140 M€ × 2 % = 2,8 M€ par an. L'investissement de 90 M€ représente 32 années de ce résultat.\n- R2 (forte) : dette nouvelle 90 × 70 % = 63 M€, soit 22,5 fois le résultat d'exploitation actuel.\n- R3 (moyenne) : à 9 % de marge et chiffre d'affaires inchangé, résultat de 12,6 M€ en année 4 ; le gain annuel de 9,8 M€ rapporte 10,9 % des 90 M€ investis, avant intérêts.\n- S1 (forte) : la marge de 9 % suppose à la fois la nouvelle usine, la demande doublée et des importateurs stables ; le dossier donne les trois comme hypothèses.\n- N1 (moyenne) : le dossier ne donne ni le montant des fonds propres comptables, ni le prix en euros, ni le taux de la dette.",
+      "own_questions": [
+        "comprend-il comment cette affaire gagne de l'argent",
+        "y a-t-il un avantage durable, un moat, face aux importateurs qui fixent les prix",
+        "que rapporte le capital incrémental : la croissance par 90 M€ d'investissement aide-t-elle ou nuit-elle aux propriétaires",
+        "quel cash pour les propriétaires et quel prix par rapport à ce cash, quelle marge de sécurité",
+        "ce qui ne se rattrape pas : le levier de 70 % de dette"
+      ],
+      "instant": "redressement fondé sur des projections, et métier gourmand en capital à faible rendement : deux rejets immédiats de la fiche",
+      "must_not": [
+        "se fier aux prévisions de marge à 9 % comme base de décision"
+      ]
+    },
+    {
+      "id": "ask-jobs-1",
+      "persona": "jobs",
+      "golden": "jobs-1",
+      "question": "Que pensez-vous de ce projet de quinzième référence, et que feriez-vous à la place de la direction ?",
+      "audit": "",
+      "own_questions": [
+        "quelle est l'expérience du client, en partant d'elle et non de la technologie",
+        "à quoi dit-on non : 14 références et une quinzième pour une équipe de 60",
+        "est-ce vraiment excellent (« insanely great »), au regard des 9 % de retours du milieu de gamme",
+        "la qualité va-t-elle jusqu'au bout, y compris la fiabilité avec six assistants tiers",
+        "l'équipe voudrait-elle elle-même de ce produit"
+      ],
+      "instant": "conception par étude de marché (l'étude auprès de 1 200 clients) et vente sur la fiche technique (la campagne prévue) : deux rejets immédiats de la fiche",
+      "must_not": [
+        "suivre l'étude clients comme guide de conception",
+        "conseiller d'ajouter des réglages ou des compatibilités pour satisfaire la demande"
+      ]
+    },
+    {
+      "id": "ask-grove-1",
+      "persona": "grove",
+      "golden": "grove-1",
+      "question": "Faut-il engager le virage vers l'abonnement, et que faudrait-il voir d'abord ?",
+      "audit": "# Audit des chiffres\n\nAgent sans avis sur le projet. Recalculs faits sur les chiffres du dossier.\n\n- R1 (forte) : appels d'offres perdus face à l'entrant : 3 sur 40, soit 7,5 %, contre 0 l'an dernier.\n- R2 (forte) : l'abonnement pèse 4 % du chiffre d'affaires, l'installation sur site 82 % ; 14 % du chiffre d'affaires ne sont pas décrits.\n- R3 (moyenne) : passer de 78 % à 60 % de marge brute réduit la marge de 18 points pendant deux ans ; le dossier ne donne pas le chiffre d'affaires en euros, le coût ne peut être chiffré.\n- S1 (moyenne) : la fidélité des clients sur trois ans est une hypothèse du dossier, pas une mesure.",
+      "own_questions": [
+        "que ferait un nouveau patron arrivant demain",
+        "si l'entrant devenait dix fois plus fort, que se passerait-il",
+        "que disent les commerciaux et le terrain (la demande de prix par utilisateur)",
+        "est-ce un signal ou du bruit : 3 appels d'offres perdus sur 40",
+        "défend-on une identité, l'installation sur site du fondateur, que le marché quitte",
+        "quel indicateur, et quel indicateur apparié pour ne pas le truquer",
+        "le débat finit-il par un engagement, avec un responsable"
+      ],
+      "instant": "stratégie défendue par l'histoire ou l'émotion, et rejet d'une technologie naissante parce que sa première version est faible : deux rejets immédiats de la fiche",
+      "must_not": [
+        "rejeter l'entrant parce que son produit est encore limité"
+      ]
+    },
+    {
+      "id": "ask-graham-1",
+      "persona": "graham",
+      "golden": "graham-1",
+      "question": "Que pensez-vous de ce plan de recrutement, et que feriez-vous à la place des fondateurs ?",
+      "audit": "",
+      "own_questions": [
+        "qui sont les fondateurs, et sont-ils déterminés",
+        "les utilisateurs sont-ils ravis, et qui sont-ils",
+        "quel est le taux de croissance par semaine, environ 1 % ici",
+        "est-on default alive ou default dead, avec 160 000 € et 28 000 € de dépenses mensuelles",
+        "que font-ils qui ne passe pas à l'échelle pour trouver des utilisateurs"
+      ],
+      "instant": "embaucher et dépenser alors que la croissance est faible, et compter sur une levée non signée (« les deals tombent ») : deux rejets immédiats de la fiche",
+      "must_not": [
+        "valider les quatre recrutements avant la levée",
+        "traiter l'intérêt oral de l'investisseur comme acquis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Shared dossiers for the discrimination eval. Every persona answers ROUND 1 on each dossier; a judge then tries to tell them apart from anonymized answers.",
+  "cases": [
+    {
+      "id": "disc-1",
+      "type": "produit",
+      "dossier": "Sujet : Lanterne, un boîtier connecté de 89 € qui analyse la qualité de l'air d'une pièce et ventile automatiquement.\n\nFaits :\n- Prototype fonctionnel, 40 testeurs depuis 3 mois\n- Coût de revient estimé à 41 € à 5 000 unités\n- Équipe de 4 personnes, 14 mois de trésorerie\n- 22 testeurs sur 40 l'utilisent encore après 3 mois\n\nHypothèses :\n- Les familles urbaines paieront pour un confort invisible\n- Un abonnement de filtres à 9 € par mois sera accepté\n- La distribution en ligne suffira jusqu'à 20 000 unités\n\nQuestion à trancher : lancer la production de 5 000 unités maintenant, ou attendre une deuxième itération ?\nEnjeu : 210 000 € de production, soit toute la trésorerie disponible."
+    },
+    {
+      "id": "disc-2",
+      "type": "idée marketing",
+      "dossier": "Sujet : campagne « 30 jours sans écran » pour une marque de cahiers et carnets haut de gamme (prix moyen 24 €).\n\nFaits :\n- Chiffre d'affaires de 3,8 M€, 62 % en ligne\n- Panier moyen de 47 €, 31 % de clients récurrents\n- Budget campagne de 150 000 €\n\nHypothèses :\n- Un défi collectif sur les réseaux sociaux créera du bouche-à-oreille\n- Des ambassadeurs rémunérés rendront l'opération crédible\n- Le défi attirera des clients plus jeunes sans faire fuir les fidèles\n\nQuestion à trancher : financer la campagne telle quelle, la réduire, ou investir ce budget ailleurs ?\nEnjeu : un tiers du budget marketing de l'année."
+    },
+    {
+      "id": "disc-3",
+      "type": "offre commerciale",
+      "dossier": "Sujet : offre d'audit énergétique « Tout compris » pour PME industrielles, à 18 000 € forfaitaires avec engagement de résultat.\n\nFaits :\n- Cabinet de 12 consultants, 2,1 M€ de chiffre d'affaires\n- Sur 30 audits passés, économies moyennes constatées de 14 %\n- Coût interne moyen d'un audit : 11 000 €\n- Cycle de vente moyen de 5 mois\n\nHypothèses :\n- L'engagement de résultat (remboursement si moins de 8 % d'économies) fera la différence\n- Les PME accepteront un forfait unique sans options\n- Les économies annoncées se maintiennent après le départ du cabinet\n\nQuestion à trancher : lancer cette offre avec engagement de résultat, ou rester sur le tarif journalier actuel ?\nEnjeu : repositionnement du cabinet sur 18 mois."
+    }
+  ],
+  "protocol": {
+    "personas": ["thiel", "musk", "jobs", "buffett", "huang", "bezos", "munger", "grove", "arnault", "dalio", "drucker", "graham", "nadella", "ma"],
+    "round": "ROUND 1, SHEET and DOSSIER only, one independent call per persona per case",
+    "anonymize": "Remove the expert's name and any line naming the real person. Keep concepts and style: identifying someone by a signature concept is allowed, that is part of fidelity. Shuffle the answers and label them A to N per case.",
+    "metrics": {
+      "top1_core": "share of core answers (6 personas x 3 cases) correctly identified when the judge picks among the 6 core names",
+      "top1_all": "share of all answers correctly identified when the judge picks among the 14 names",
+      "confusions": "list every pair confused at least twice across the 3 cases"
+    },
+    "thresholds": {
+      "top1_core": 0.8,
+      "top1_all": 0.6,
+      "max_pair_confusions": 1
+    }
+  }
+}

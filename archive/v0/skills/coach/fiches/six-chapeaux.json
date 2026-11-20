@@ -1,0 +1,23 @@
+{
+  "id": "six-chapeaux",
+  "nom": "Les Six Chapeaux de Bono",
+  "alias": ["six chapeaux", "pensée parallèle", "six thinking hats"],
+  "source": { "auteur": "Edward de Bono", "reference": "Six Thinking Hats, 1985", "verifie": false },
+  "diamant": "explorer",
+  "quand": "Pour examiner une option ou un plan sous six angles séparés, sans que la critique étouffe les idées ni l'enthousiasme les risques.",
+  "pasQuand": "Pour produire des options : préférer le brainwriting ; pour trancher : préférer le consentement.",
+  "mecanique": "atelier",
+  "sieges": [
+    { "posture": "chapeau blanc : les faits et les chiffres que donnent les documents, et ceux qui manquent", "persona": null },
+    { "posture": "chapeau rouge : le ressenti, l'intuition, ce que vivront les personnes concernées", "persona": null },
+    { "posture": "chapeau noir : les risques, les faiblesses, ce qui peut échouer", "persona": null },
+    { "posture": "chapeau jaune : les bénéfices, ce qui fonctionne, pourquoi cela peut marcher", "persona": null },
+    { "posture": "chapeau vert : les idées nouvelles, les alternatives, les détours", "persona": null },
+    { "posture": "chapeau bleu : l'organisation, la prochaine étape, qui fait quoi", "persona": null }
+  ],
+  "parametres": { "premortem": false, "parPosture": true },
+  "entree": "options",
+  "sortie": "options",
+  "pieges": ["Mélanger les chapeaux : chaque siège tient le sien seulement.", "Laisser le chapeau noir conclure : la décision revient au porteur."],
+  "cout": "3 par siège + 2 (6 × 3 + 2 = 20)"
+}

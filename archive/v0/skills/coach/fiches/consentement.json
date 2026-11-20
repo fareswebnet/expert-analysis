@@ -1,0 +1,20 @@
+{
+  "id": "consentement",
+  "nom": "Décision par consentement",
+  "alias": ["consentement sociocratique", "gestion par consentement"],
+  "source": { "auteur": "Gerard Endenburg (sociocratie)", "reference": "Sociocratie, Pays-Bas, années 1970", "verifie": false },
+  "diamant": "converger",
+  "quand": "Pour arrêter une proposition retenue : on cherche un « personne n'y voit de tort », pas l'accord de tous.",
+  "pasQuand": "Quand il n'y a pas encore de proposition : produire et trier d'abord.",
+  "mecanique": "objection",
+  "sieges": [
+    { "posture": "celui qui l'exécutera : ce qui la rendrait impraticable", "persona": "grove" },
+    { "posture": "celui qui paie : ce qu'elle coûte et ce qu'elle risque", "persona": "buffett" },
+    { "posture": "le client : ce qu'elle lui fait", "persona": "bezos" }
+  ],
+  "parametres": { "toursMax": 3 },
+  "entree": "proposition",
+  "sortie": "proposition",
+  "pieges": ["Prendre une préférence pour une objection.", "Croire qu'un consentement d'agents vaut décision : c'est le porteur qui décide."],
+  "cout": "sièges × tours + amendements (3 × 3 + 2 = 11 au plus)"
+}

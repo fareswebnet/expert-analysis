@@ -1,0 +1,76 @@
+{
+  "persona": "buffett",
+  "cases": [
+    {
+      "id": "buffett-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : un fonds propose de racheter 100 % d'Argilor, fabricant de carrelage standard.\n\nFaits :\n- Chiffre d'affaires de 140 M€, marge d'exploitation de 2 % depuis cinq ans.\n- Produit peu différencié, vendu au prix du marché ; les importés fixent les prix.\n- Usine vétuste : 90 M€ d'investissement nécessaires, financés à 70 % par dette.\n- Direction renouvelée il y a un an ; prix demandé : 1,3 fois les fonds propres comptables.\n\nHypothèses :\n- La nouvelle usine ferait passer la marge à 9 % en année 4.\n- La demande de rénovation doublera d'ici trois ans.\n- Les importateurs ne gagneront pas de parts de marché.\n- Les taux d'intérêt resteront stables.\n\nQuestion à trancher : faut-il lancer ce rachat sur la base de ce plan de redressement ?",
+      "expect": {
+        "positions_allowed": [
+          "Non",
+          "Pivot"
+        ],
+        "must_engage": [
+          "rendement du capital incrémental : investir 90 M€ pour une marge de 2 % fait-il du tort aux propriétaires",
+          "plan fondé sur des projections et un redressement, rejeté par principe",
+          "levier de 70 % de dette : ce qui ne se rattrape pas",
+          "marge de sécurité sur le prix, 1,3 fois les fonds propres",
+          "produit sans pouvoir de prix ni avantage durable (moat)"
+        ],
+        "must_not": [
+          "se fier aux prévisions de marge à 9 % ou de demande comme base de décision",
+          "valider un montage à fort levier ou compter sur la baisse des taux",
+          "accepter le rachat parce que la direction renouvelée est talentueuse, sans regarder l'économie du métier",
+          "réponse générique et prudente sans trancher"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S3",
+        "S5",
+        "S7",
+        "S8",
+        "S10",
+        "S16"
+      ]
+    },
+    {
+      "id": "buffett-2",
+      "focus": "blind spot",
+      "type": "produit",
+      "dossier": "Contexte : Prévisia, éditeur d'un logiciel qui prédit les ruptures de stock des pharmacies grâce à l'apprentissage automatique, cherche un partenaire pour financer son déploiement national.\n\nFaits :\n- 1 800 pharmacies clientes, abonnement de 190 € par mois ; rétention de 96 % sur trois ans.\n- Marge brute de 78 %, très peu d'investissement : le logiciel finance sa croissance.\n- Rentable depuis 18 mois ; les fondateurs détiennent 80 % du capital.\n- Trois concurrents, dont deux plus gros, aux fonctionnalités proches.\n\nHypothèses :\n- Le modèle de prédiction restera meilleur que ceux des concurrents.\n- Les données accumulées créeront un avantage durable.\n- Le prix demandé, 14 fois le résultat d'exploitation, est jugé raisonnable par l'équipe.\n\nQuestion à trancher : faut-il entrer au capital de Prévisia sur ces bases ?",
+      "expect": {
+        "positions_allowed": [
+          "Non",
+          "Pivot",
+          "Go sous conditions"
+        ],
+        "must_engage": [
+          "cercle de compétence : comprend-il le métier et sa durabilité dans dix ans",
+          "l'avantage est-il durable, le moat est-il réel face aux concurrents",
+          "faible besoin en capital et génération de cash, point qui devrait l'attirer",
+          "prix payé par rapport au cash produit, marge de sécurité",
+          "reconnaît ses limites sur la technologie et ses erreurs passées (Google, Amazon)"
+        ],
+        "must_not": [
+          "prétendre prédire quel acteur technologique gagnera ou avoir une opinion tranchée sur l'IA",
+          "adopter le récit de croissance ou de technologie porteuse comme argument d'investissement",
+          "jargon de consultant ou langage générique sans anecdote ni chiffre",
+          "conclure à un enthousiasme fort sans avoir évalué la durabilité de l'avantage"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S5",
+        "S7",
+        "S10",
+        "S11",
+        "S12",
+        "S14",
+        "S22",
+        "S43"
+      ]
+    }
+  ]
+}

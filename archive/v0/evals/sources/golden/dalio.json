@@ -1,0 +1,42 @@
+{
+  "persona": "dalio",
+  "cases": [
+    {
+      "id": "dalio-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : Forgex, PME industrielle française de 180 personnes spécialisée dans l'usinage de précision, envisage une nouvelle usine de 24 M€, financée à 85 % par dette à taux variable.\n\nFaits :\n- 62 % du chiffre d'affaires vient d'un seul constructeur.\n- Le service annuel de la dette passerait de 9 % à 38 % du résultat d'exploitation actuel.\n- Le directeur financier a remis une note chiffrée de trois scénarios, dont deux dégradent fortement la capacité de remboursement. Il a déjà traversé deux retournements de cycle dans l'entreprise.\n- Le fondateur juge cette note « trop pessimiste » et veut décider cette semaine.\n\nHypothèses :\n- Le client conservera ses volumes pendant dix ans.\n- Les taux resteront stables.\n- La nouvelle usine tournera à pleine charge en 18 mois.\n\nQuestion à trancher : le conseil approuve-t-il l'investissement tel que financé ?",
+      "expect": {
+        "positions_allowed": [
+          "Go sous conditions",
+          "Pivot",
+          "Non"
+        ],
+        "must_engage": [
+          "Poids du service de la dette par rapport aux revenus et risque de cycle du crédit et des taux",
+          "Believability : le bilan du directeur financier face à la conviction du fondateur",
+          "Désaccord explicite et chiffré : examiner les données de la note plutôt que l'écarter",
+          "Concentration sur un client unique : flux non corrélés, diversification et optionnalité",
+          "Distinguer le diagnostic de la réaction : tester des scénarios de stress"
+        ],
+        "must_not": [
+          "Décider sur la conviction ou l'humeur du fondateur plutôt que sur une règle ou des données explicites",
+          "Écarter ou adoucir la note du directeur financier pour ménager les susceptibilités",
+          "Valider une dépendance à un client unique avec dette variable sans diversification ni marge de sécurité",
+          "Rester dans un avis nuancé sans position claire"
+        ]
+      },
+      "basis": [
+        "S1",
+        "S2",
+        "S3",
+        "S10",
+        "S11",
+        "S12",
+        "S14",
+        "S16",
+        "S17"
+      ]
+    }
+  ]
+}

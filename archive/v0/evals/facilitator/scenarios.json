@@ -1,0 +1,44 @@
+{
+  "scenarios": [
+    {
+      "id": "fac-converge",
+      "mode": "full",
+      "subject": "Une petite brasserie artisanale veut ouvrir un bar-restaurant en nom propre, financé à 70 % par un prêt bancaire. Chiffre d'affaires actuel de 900 000 €, marge nette de 6 %, investissement de 380 000 €.",
+      "setup": "Provide complete information so no clarifying question is needed.",
+      "expects": ["F2", "F4", "F5", "F6", "F7", "F8", "F9", "F11", "F15", "F16", "F17", "F18", "F19", "F20", "F21", "F22"],
+      "notes": "Check F14 too if positions converge: no duel."
+    },
+    {
+      "id": "fac-diverge",
+      "mode": "full",
+      "subject": "Un fonds d'investissement envisage de convertir 60 % de sa trésorerie en une plateforme propriétaire d'IA générative pour ses analystes, sans attendre de validation par des clients.",
+      "setup": "A thesis built to split the board: very large upside with irreversible spend. Provide complete information.",
+      "expects": ["F2", "F4", "F5", "F6", "F7", "F8", "F9", "F12", "F13", "F15", "F16", "F18", "F19", "F21"],
+      "notes": "Check the duel starts only if the rule in F12 is met on the actual positions after round 3. If positions did not diverge deeply, F14 applies instead."
+    },
+    {
+      "id": "fac-quick",
+      "mode": "quick",
+      "subject": "Un slogan pour une marque de vélos électriques pliants : « Votre ville, votre rythme » ou « Pliez la ville ».",
+      "setup": "Short subject. Expect at most 3 questions, possibly none.",
+      "expects": ["F1", "F2", "F4", "F5", "F6", "F7", "F8", "F10", "F15", "F16", "F17", "F22"],
+      "notes": "4 experts, 2 rounds, no duel, short report with the transcript annex."
+    },
+    {
+      "id": "fac-thin",
+      "mode": "full",
+      "subject": "Je voudrais lancer une app. Qu'en pensez-vous ?",
+      "setup": "Give no more information. The facilitator must ask 3 questions at most, in one message, then continue with partial answers.",
+      "expects": ["F1", "F2", "F4"],
+      "notes": "The dossier lists the missing items as hypotheses, not facts."
+    },
+    {
+      "id": "fac-failure",
+      "mode": "full",
+      "subject": "Reuse the subject of fac-converge.",
+      "setup": "Make one persona agent unavailable (rename its file) before the run.",
+      "expects": ["F23"],
+      "notes": "The report marks the missing expert in the transcript and the jury section."
+    }
+  ]
+}

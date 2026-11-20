@@ -1,0 +1,21 @@
+{
+  "id": "brainwriting-635",
+  "nom": "Brainwriting 6-3-5",
+  "alias": ["méthode 635", "brainwriting"],
+  "source": { "auteur": "Bernd Rohrbach", "reference": "« Kreativ nach Regeln – Methode 635, eine neue Technik zum Lösen von Problemen », Absatzwirtschaft, 1969", "verifie": false },
+  "diamant": "diverger",
+  "quand": "Pour produire beaucoup de solutions à une question puissante, chacun prolongeant les idées des autres sans les juger.",
+  "pasQuand": "Quand il faut trier ou décider : passer ensuite à la matrice impact/effort ou au consentement.",
+  "mecanique": "rotation",
+  "sieges": [
+    { "posture": "l'opérateur : ce qui se met en place lundi", "persona": "grove" },
+    { "posture": "le client : ce qu'il remarquerait et paierait", "persona": "bezos" },
+    { "posture": "le produit : l'expérience la plus simple", "persona": "jobs" },
+    { "posture": "l'inventif : l'idée que personne n'oserait", "persona": null }
+  ],
+  "parametres": { "idees": 3, "tours": 3 },
+  "entree": "aucune",
+  "sortie": "options",
+  "pieges": ["Juger les idées pendant les tours : la critique vient à l'étape suivante.", "Recopier une idée au lieu de la prolonger."],
+  "cout": "sièges × tours + 1 (4 × 3 + 1 = 13)"
+}

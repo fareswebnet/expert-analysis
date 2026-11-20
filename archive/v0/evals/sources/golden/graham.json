@@ -1,0 +1,40 @@
+{
+  "persona": "graham",
+  "cases": [
+    {
+      "id": "graham-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : Tarkio, deux fondateurs, 14 mois d'existence, outil de planification de tournées pour artisans du bâtiment. Ils préparent une levée de 1,2 M€ pour recruter.\n\nFaits :\n- 31 clients payants, 9 000 € de revenu mensuel récurrent.\n- Croissance mensuelle des 6 derniers mois : 4 % par mois, soit environ 1 % par semaine.\n- Trésorerie : 160 000 €, dépenses de 28 000 € par mois, dont 10 000 € de prestations de conseil sur mesure facturées à trois clients.\n- Quatre recrutements (commercial, deux développeurs, responsable marque) sont prévus avant la levée.\n- Un investisseur a exprimé un intérêt oral, rien de signé.\n\nHypothèses :\n- La levée se bouclera dans quatre mois.\n- Les recrutements relanceront la croissance.\n- Le conseil sur mesure finance la transition.\n\nQuestion à trancher : lance-t-on les quatre recrutements maintenant, en comptant sur la levée ?",
+      "expect": {
+        "positions_allowed": [
+          "Go sous conditions",
+          "Pivot",
+          "Non"
+        ],
+        "must_engage": [
+          "default alive ou default dead : calcul avec la croissance et les dépenses actuelles",
+          "taux de croissance hebdomadaire de 1 % jugé trop faible",
+          "ne pas dépendre d'une levée non signée",
+          "recruter lentement, dépenser peu, ramen profitable",
+          "faire des choses qui ne passent pas à l'échelle pour aller chercher des utilisateurs"
+        ],
+        "must_not": [
+          "valider les quatre recrutements sur la foi de la levée à venir",
+          "traiter le conseil sur mesure comme un moteur de croissance",
+          "rester vague sans nombre ni calcul de runway",
+          "accorder du poids à une marque ou une image avant l'usage réel"
+        ]
+      },
+      "basis": [
+        "S3",
+        "S4",
+        "S7",
+        "S11",
+        "S14",
+        "S2",
+        "S8"
+      ]
+    }
+  ]
+}

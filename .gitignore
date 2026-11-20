@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+# eval runs are snapshots; only the history is kept
+evals/results/*
+!evals/results/history.md
+board-reports/eval-*.md
+
+archive/v0/evals/results/*
+!archive/v0/evals/results/history.md
+
+# Données privées : jamais dans ce dépôt
+lessons/journal*.md
+evals/terrain/prive/
+board/
+board-reports/

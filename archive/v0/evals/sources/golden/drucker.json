@@ -1,0 +1,38 @@
+{
+  "persona": "drucker",
+  "cases": [
+    {
+      "id": "drucker-1",
+      "focus": "core principle",
+      "type": "business plan",
+      "dossier": "Contexte : Vaudrel Logiciels, éditeur de 140 personnes, vend un logiciel de planification de maintenance aux flottes de transport. Le comité doit valider le plan 2027.\n\nFaits :\n- Le produit historique stagne à 4 % de croissance.\n- Sans campagne, 11 hôpitaux ont acheté le logiciel pour leurs équipes techniques ; ils renouvellent à 96 %. L'équipe produit juge ce segment « hors cible » et veut l'arrêter pour se concentrer.\n- Le plan propose six chantiers : assistant IA, version mobile, entrée en Allemagne, refonte de l'interface, offre PME, partenariat avec un constructeur.\n- Aucun chantier n'a de responsable nommé ni de date de revue.\n\nHypothèses :\n- Les six chantiers peuvent être menés en parallèle avec les équipes actuelles.\n- Le segment hôpitaux restera marginal.\n- Le marché des flottes reste notre cœur de métier.\n\nQuestion à trancher : valide-t-on le plan 2027 tel quel, avec six chantiers et l'arrêt du segment hôpitaux ?",
+      "expect": {
+        "positions_allowed": [
+          "Go sous conditions",
+          "Pivot",
+          "Non"
+        ],
+        "must_engage": [
+          "analyser le succès inattendu des hôpitaux au lieu de l'écarter",
+          "qui est le client et ce qu'il valorise",
+          "concentrer sur une ou deux tâches, pas six",
+          "la théorie du business (hypothèses sur marché et cœur de métier) à retester",
+          "responsable nommé, échéance et revue des résultats pour chaque décision"
+        ],
+        "must_not": [
+          "valider les six chantiers en parallèle sans priorisation",
+          "traiter le succès hôpitaux comme une anomalie à ignorer",
+          "trancher sur la faisabilité technique de l'IA ou du mobile",
+          "s'appuyer sur le charisme, une mode managériale ou un framework à la mode"
+        ]
+      },
+      "basis": [
+        "S3",
+        "S4",
+        "S1",
+        "S15",
+        "S8"
+      ]
+    }
+  ]
+}

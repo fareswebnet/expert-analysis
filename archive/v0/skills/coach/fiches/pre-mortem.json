@@ -1,0 +1,20 @@
+{
+  "id": "pre-mortem",
+  "nom": "Pre-mortem",
+  "alias": ["prémortem", "autopsie anticipée"],
+  "source": { "auteur": "Gary Klein", "reference": "« Performing a Project Premortem », Harvard Business Review, septembre 2007", "verifie": false },
+  "diamant": "explorer",
+  "quand": "Quand le choix est fait et que la question est ce qui peut faire échouer le plan ; pour obtenir des signaux faibles et des critères d'arrêt.",
+  "pasQuand": "Pour chercher des options : les causes se recoupent beaucoup quand tous tiennent le même mandat.",
+  "mecanique": "atelier",
+  "sieges": [
+    { "posture": "pre-mortem : le plan a échoué à l'horizon donné ; pourquoi, à partir des documents, et ce qui aurait dû alerter", "persona": null },
+    { "posture": "pre-mortem : le plan a échoué à l'horizon donné ; pourquoi, à partir des documents, et ce qui aurait dû alerter", "persona": null },
+    { "posture": "pre-mortem : le plan a échoué à l'horizon donné ; pourquoi, à partir des documents, et ce qui aurait dû alerter", "persona": null }
+  ],
+  "parametres": { "premortem": true, "horizon": "dans douze mois" },
+  "entree": "aucune",
+  "sortie": "causes",
+  "pieges": ["Les critères d'arrêt sont des propositions : seul le porteur les inscrit au cadrage."],
+  "cout": "3 par participant + 2"
+}

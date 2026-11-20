@@ -1,0 +1,16 @@
+{
+  "id": "essai",
+  "nom": "Fiche d'essai",
+  "alias": ["essai"],
+  "source": { "auteur": "Auteur d'essai", "reference": "Référence d'essai", "verifie": true },
+  "diamant": "explorer",
+  "quand": "Pour tester le générateur.",
+  "pasQuand": "Jamais en séance.",
+  "mecanique": "chaine",
+  "sieges": [ { "posture": "le critique", "persona": "grove" }, { "posture": "les faits", "persona": null } ],
+  "parametres": { "niveaux": 5 },
+  "entree": "aucune",
+  "sortie": "causes",
+  "pieges": ["Un piège d'essai."],
+  "cout": "niveaux × chaînes + 1"
+}

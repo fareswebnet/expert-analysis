@@ -1,0 +1,15 @@
+{
+  "name": "board",
+  "version": "1.0.0",
+  "description": "A six-step method, each step a separate command that writes one file in a dossier and checks the previous one: /board:cadrage (framing and web check of the counterpart), /board:base (one single call: verdict, decisive questions as trees, hypotheses ranked with the cheapest test), /board:acteurs (one call that plays each actor of the value chain from his chair), /board:angles (critique from 2 to 4 described ways of judging, one call), /board:livrable (the one-page document), /board:terrain (field debrief and scoring). /board:suite says what comes next. Rules in references/principes.md.",
+  "author": {
+    "name": "fareswebnet"
+  },
+  "keywords": [
+    "decision",
+    "method",
+    "meeting-prep",
+    "product",
+    "business-plan"
+  ]
+}

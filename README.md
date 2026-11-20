@@ -4,6 +4,38 @@ Une méthode en six étapes pour préparer un rendez-vous, savoir si quelqu'un a
 
 Version 1.0.0. Elle remplace les débats, tables, ateliers à agents et parcours de coach de la v0 (archivés dans `archive/v0/`) : sur les dossiers testés du 16 au 20 novembre 2026, un bon appel unique a fait aussi bien ou mieux, pour 10 à 40 fois moins d'appels (`evals/terrain/`, leçons L-041 à L-043).
 
+## Installation
+
+Dans Claude Code :
+
+```
+/plugin marketplace add fareswebnet/expert-analysis
+/plugin install board@multi-expert-board
+```
+
+Les commandes apparaissent ensuite sous la forme `/board:<étape>`. Pour mettre à jour : `/plugin`, puis mettre à jour `board` depuis le marketplace `multi-expert-board`.
+
+## Mode d'emploi
+
+Lancez les commandes depuis le répertoire de travail où vous voulez garder vos dossiers. Chaque sujet devient un dossier `board/<sujet>/`. Le journal des leçons, `board/journal.md`, reste dans ce répertoire et n'entre jamais dans un dépôt.
+
+**Préparer un rendez-vous** (3 appels environ)
+
+1. `/board:cadrage notes-client.md "rendez-vous avec le directeur financier de X"` : répondez aux questions (décision à servir, qui vous rencontrez, ce que vous savez, la date). L'interlocuteur est vérifié sur le web ; si la vérification contredit ce que vous avez dit, confirmez qui vous voyez avant d'aller plus loin.
+2. `/board:base` : le verdict, les questions décisives en arbre (si la réponse est a, alors… ; si ce n'est pas le cas, viser…), les hypothèses classées avec leur test le moins cher.
+3. `/board:livrable` : la fiche d'une page à emporter.
+4. Après le rendez-vous, `/board:terrain` : racontez, répondez aux questions prévues une par une ; chaque fichier du dossier est noté contre ce qui s'est passé.
+
+**Savoir si quelqu'un achète une idée, éprouver un business plan ou un positionnement** (4 à 5 appels)
+
+1. `/board:cadrage definition-produit.md` : au type de question, choisissez « idée produit » (acheter veut dire adhérer à l'idée, pas financer), « business plan » ou « positionnement ».
+2. `/board:base`.
+3. `/board:acteurs` : les acteurs de la chaîne de valeur (qui achète, qui paie, qui porte le risque, l'outil en place, qui bloque) sont nommés et joués un par un ; la fin du fichier liste ce que la base n'avait pas vu. Vous pouvez imposer les acteurs : `/board:acteurs "DRH, cabinet de recrutement, candidat"`.
+4. Si vous voulez une critique : `/board:angles munger,graham,thiel`, ou sans argument pour laisser choisir les angles adaptés.
+5. `/board:livrable`, puis `/board:terrain` après vos entretiens.
+
+**À tout moment**, `/board:suite` dit où en est le dossier et quelle commande lancer. Une commande lancée trop tôt s'arrête et nomme celle qui manque. Relancer une étape range l'ancienne version dans `historique/`. Pour corriger le cadrage : `/board:cadrage --maj`.
+
 ## La constitution
 
 `references/principes.md` : les règles que chaque commande lit avant d'agir (un bon appel avant tout dispositif, vérifier à qui l'on parle, questions décisives en arbre, jamais « probablement », raisonner depuis la chaise des acteurs, connaissance générale marquée, ce qui est réglé n'est pas redemandé, le terrain tranche).

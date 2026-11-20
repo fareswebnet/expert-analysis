@@ -10,10 +10,10 @@ Dans Claude Code :
 
 ```
 /plugin marketplace add fareswebnet/expert-analysis
-/plugin install board@multi-expert-board
+/plugin install board@expert-analysis
 ```
 
-Les commandes apparaissent ensuite sous la forme `/board:<étape>`. Pour mettre à jour : `/plugin`, puis mettre à jour `board` depuis le marketplace `multi-expert-board`.
+Les commandes apparaissent ensuite sous la forme `/board:<étape>`. Pour mettre à jour : `/plugin`, puis mettre à jour `board` depuis le marketplace `expert-analysis`.
 
 ## Mode d'emploi
 
